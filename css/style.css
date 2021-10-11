@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* CONTAINER */
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.logo img{
+    width: 20%;
+    border-right: 2px solid #e9e9e9;
+    padding-right: 20px;
+    
+}
+
+.menu li{
+    display: inline;
+    list-style-type: none;
+    padding: 0px 10px;
+    color: #a7a7a7;
+    font-family: Montserrat;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #a7a7a7
+}
+
+.menu{
+    margin: 20px 0;
+}
+
+.bck-banner{
+    position: relative;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.overlay{
+    position:absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.content-overlay{
+    position: absolute;
+    width: 50%;
+    bottom: 80px;
+    left: 20px;
+    color: white;
+    font-family: Montserrat;
+
+}
+.sub-content{
+    position: absolute;
+    width: 50%;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-family: Montserrat;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.head-main {
+    height: 150px;
+    margin-bottom: 2%;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Montserrat;
+    margin-top: 25px;
+}
+
+h4{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Montserrat;
+    margin: 25px 0;
+    
+}
+
+p{
+    color: #a7a7a7
+}
+
+.head-main span{
+    font-family: Montserrat;
+    font-size: 15px;
+    color: #a7a7a7;
+}
+
+.column{
+    float: left;
+    position: relative;
+}
+
+.small-coll{
+    width: 20%;
+}
+
+.large-coll{
+    width: 56%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.coll-img{
+    position: relative;
+    height: 200px;
+    border-radius: 15px;;
+    
+}
+
+.img1 {
+    
+    background-image: url(../img/img-1.jpg);
+    background-position: center;
+}
+
+.img2 {
+    background-image: url(../img/banner-2.jpg);
+    background-position: center;
+}
+
+.img3 {
+    background-image: url(../img/img-3.jpg);
+    background-position: center;
+}
+
+.heart{
+    color: red;
+    font-size: x-large;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 35px;
+    font-family: Montserrat;
+}
